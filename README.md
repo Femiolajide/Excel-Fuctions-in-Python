@@ -10,7 +10,7 @@ This project is about recreating some common Excel functions in Python. The idea
 2. [Why I Built This](#-why-i-built-this)  
 3. [What’s Inside](#-whats-inside)  
     - [Math Functions](#-math-functions)
-        - [SUM](#-1-sum)
+        - [SUM](#-sum)
 
 
 ## 🔹 **Why I Built This**
@@ -23,7 +23,7 @@ This project is about recreating some common Excel functions in Python. The idea
 ## 🔹 **What’s Inside**
 The functions are grouped into:
 ### 🧮 **Math Functions**
-####  **1. SUM()**
+####  **SUM()**
 ---
 
 - **Description:**  
