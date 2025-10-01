@@ -10,7 +10,7 @@ This project is about recreating some common Excel functions in Python. The idea
 2. [Why I Built This](#-why-i-built-this)  
 3. [What’s Inside](#-whats-inside)  
     - [Math Functions](#-math-functions)
-        - [SUM](#-sum)
+        - [SUM](#-sum())
 
 
 ## 🔹 **Why I Built This**
@@ -42,7 +42,7 @@ This is how Excel presents the SUM function in its *Function Arguments* window:
 <img width="710" height="367" alt="ex2" src="https://github.com/user-attachments/assets/74683919-7486-4f0c-be7d-ddf2771a6b8e" />
 
 **Source Code:**  
-[👉 View implementation in Python](excel_math_function.py#L10-L25)  
+[👉 View implementation in Python](excel_math_function.py#L1-L88)  
 
 
 
