@@ -6,11 +6,11 @@ This project is about recreating some common Excel functions in Python. The idea
 
 ---
 ## 📑 **Table of Contents**
-1. [Introduction](#excel-function-in-python)  
+1. [Introduction](#-excel-functions-in-python)  
 2. [Why I Built This](#-why-i-built-this)  
 3. [What’s Inside](#-whats-inside)  
-    - [Math & Stats Functions](#-math-&-stats-functions)
-        - [SUM](#1.-sum())
+    - [Math Functions](#-math-functions)
+        - [SUM](#1.-sum-())
 
 
 ## 🔹 **Why I Built This**
@@ -22,7 +22,7 @@ This project is about recreating some common Excel functions in Python. The idea
 
 ## 🔹 **What’s Inside**
 The functions are grouped into:
-### 🧮 **Math & Stats Functions**
+### 🧮 **Math Functions**
 ####  **1. SUM()**
 ---
 
@@ -44,9 +44,16 @@ This is how Excel presents the SUM function in its *Function Arguments* window:
 
 
 **Source Code:**  
-[👉 View implementation in Python](functions.py#L10-L25)  
+[👉 View implementation in Python](excel_math_function.py#L10-L25)  
 
 
 
 **Notebook Demo:**  
 [📓 See usage example in the demo notebook](demo_notebook.ipynb)  
+
+[![Project Status](https://img.shields.io/badge/status-work--in--progress-orange)](https://github.com/Femiolajide/excel-functions-in-python)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Femiolajide/excel-functions-in-python)](https://github.com/Femiolajide/excel-functions-in-python/commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/Femiolajide/excel-functions-in-python)
+![GitHub stars](https://img.shields.io/github/stars/Femiolajide/excel-functions-in-python?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Femiolajide/excel-functions-in-python?style=social)
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
