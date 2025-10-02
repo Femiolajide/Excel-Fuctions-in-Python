@@ -1,4 +1,5 @@
-def excel_sum(*numbers):
+import pandas as pd
+def excel_sum(*numbers: list | tuple | pd.DataFrame | pd.Series) -> int | float:
     """**Excel**
     Add all the numbers in a range of ceels
     
@@ -10,6 +11,7 @@ def excel_sum(*numbers):
 **Parameters**
     -------------------------------------------------------------
         **numbers**: int, float, list, tuple, pandas serues or datafram
+        
         number1,number2....(number to sum is not limited unlike excel's
         that allows only from 1 to 255). Logical values and texts are 
         ignored in containers (list, tuple, series and dataframe), but
@@ -25,8 +27,8 @@ def excel_sum(*numbers):
 
 **Note**
     -------------------------------------------------------------
-    This is purely logical representation of how sum function behaves 
-    in excel.
+        This is purely logical representation of how sum function behaves 
+        in excel.
     """
     # importing the required packages
     import numpy as np
@@ -55,8 +57,8 @@ def excel_sum(*numbers):
             from_pandas.extend(no_logicals)
         else:
             # Let the users know that their datatype is not allowed
-            print(f"{type(x)} object is not allowed")
-            break
+            raise TypeError ("#VALUE?\nA value used in this function\
+ is of wrong data type")
     # Trying to do some cleanup here also
     # Replacing all logical values (True or False) in from_cont with 0
     from_cont = [0 if x == True or x == False else x for x in from_cont]
@@ -85,7 +87,8 @@ def excel_sum(*numbers):
         else:
             return sum(clean_all_nums)
     else:
-        raise TypeError ("#NAME?\nThe arguments contain unrecognized text")
+        raise TypeError ("#VALUE?\nA value used in this function\
+ is of wrong data type")
         
 
 

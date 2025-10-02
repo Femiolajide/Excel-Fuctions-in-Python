@@ -23,7 +23,7 @@ This project is about recreating some common Excel functions in Python. The idea
 ## 🔹 **What’s Inside**
 The functions are grouped into:
 ### 🧮 **Math Functions**
-####  **SUM**
+###  **SUM()**
 ---
 
 - **Description:**  
