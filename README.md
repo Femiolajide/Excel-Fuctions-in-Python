@@ -39,9 +39,7 @@ The functions are grouped into:
 - **How Excel Shows It:**  
 This is how Excel presents the SUM function in its *Function Arguments* window:  
 
-![ex2.png](attachment:ex2.png)
-
-
+<img width="710" height="367" alt="ex2" src="https://github.com/user-attachments/assets/74683919-7486-4f0c-be7d-ddf2771a6b8e" />
 
 **Source Code:**  
 [👉 View implementation in Python](excel_math_function.py#L1-L88)  
