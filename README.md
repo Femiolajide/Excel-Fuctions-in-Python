@@ -47,4 +47,5 @@ This is how Excel presents the SUM function in its *Function Arguments* window:
 
 
 **Notebook Demo:**  
-[📓 See usage example in the demo notebook](demo_notebook.ipynb)  
+[📓 See usage example in the demo notebook](https://nbviewer.org/github/Femiolajide/Excel-Fuctions-in-Python/blob/main/demo_notebook.ipynb
+)  
