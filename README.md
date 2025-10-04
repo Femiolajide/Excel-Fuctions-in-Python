@@ -40,10 +40,13 @@ This is how Excel presents the SUM function in its *Function Arguments* window:
 <img width="710" height="367" alt="ex2" src="https://github.com/user-attachments/assets/74683919-7486-4f0c-be7d-ddf2771a6b8e" />
 
 **Source Code:**  
-[👉 View implementation in Python](excel_math_function.py#L1-L88)  
+Click [here](excel_math_function.py#L1-L88) to view the sourse code
+
+**View Notebook Demo:**  
+
+Click [here](https://github.com/Femiolajide/Excel-Fuctions-in-Python/blob/main/demo_notebook.ipynb) to view the notebook demo
 
 
-
-**Notebook Demo:**  
-[📓 See usage example in the demo notebook](https://mybinder.org/v2/gh/Femiolajide/Excel-Fuctions-in-Python/HEAD?filepath=demo_notebook.ipynb
-)  
+**Run Notebook Demo:**  
+Click [here](https://mybinder.org/v2/gh/Femiolajide/Excel-Fuctions-in-Python/HEAD?filepath=demo_notebook.ipynb
+) to **run** the usage example in the demo notebook
