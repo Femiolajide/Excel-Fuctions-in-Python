@@ -21,7 +21,7 @@ This project is about recreating some common Excel functions in Python. The idea
 ## 🔹 **What’s Inside**
 The functions are grouped into:
 ### 🧮 **Math and Stats Functions**
-###  **SUM()**
+###  **SUM**
 ---
 
 - **Description:**  
