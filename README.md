@@ -6,11 +6,9 @@ This project is about recreating some common Excel functions in Python. The idea
 
 ---
 ## 📑 **Table of Contents**
-1. [Introduction](#-excel-functions-in-python)  
-2. [Why I Built This](#-why-i-built-this)  
-3. [What’s Inside](#-whats-inside)  
-    - [Math Functions](#-math-functions)
-        - [SUM](#-sum)
+1. [INTRODUCTION](#-excel-functions-in-python)  
+2. [MATH & STATS FUNCTION](#-math-and-stats-functions)
+    - [Sum](#-sum)
 
 
 ## 🔹 **Why I Built This**
@@ -22,7 +20,7 @@ This project is about recreating some common Excel functions in Python. The idea
 
 ## 🔹 **What’s Inside**
 The functions are grouped into:
-### 🧮 **Math Functions**
+### 🧮 **Math and Stats Functions**
 ###  **SUM()**
 ---
 
